@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Atajos",
+  "version": "1.0",
+  "description": "Atajos",
+  "permissions": [
+    "notifications",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icono.jpg"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}

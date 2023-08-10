@@ -1,0 +1,143 @@
+body {
+  width: 350px;
+  height: 500px;
+  padding: 10px;
+  background-color: #1C2833;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  text-align: center;
+  background-color: #17202A;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+li {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a::before {
+  content: none;
+}
+
+input[type="text"] {
+  width: 95%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #34495E;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+#miTexto {
+  width: 95%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #34495E;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+#boton1,
+#boton2 {
+  display: inline-block;
+  width: calc(50% - 5px);
+  padding: 5px;
+  font-size: 15px;
+  background-color: #273746;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#boton1 {
+  margin-right: 5px;
+}
+
+label {
+  display: block;
+  font-size: 17px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+#error-message {
+  font-size: 15px;
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#instruc {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #273746;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  left: 115px;
+}
+
+#shortcut-form {
+  display: none;
+}
+
+#atras {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #273746;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  left: 115px;
+}
+
+#shortcut-form {
+  display: none;
+}
+
+#instrucciones {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+}
+
+#instrucciones p {
+  margin-bottom: 10px;
+}
+
+#instrucciones ol {
+  padding-left: 20px;
+}
+
+#instrucciones li {
+  margin-bottom: 5px;
+}
